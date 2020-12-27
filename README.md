@@ -8,3 +8,6 @@ but if i can apply a concept in a simple environment,
 then i can do it in a more complex environment.
 
 So any constructive criticism is greatly appreciated! 
+
+
+######source of exercises: https://www.practicepython.org/
