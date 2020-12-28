@@ -5,7 +5,7 @@ import random
 # opening message
 print("Let's play a game of rock paper scissors! ")       
 
-# first player input
+# player input
 def rock_paper_scissors():    
     print("Chose between 'rock' 'paper' or 'scissors' and we will see who wins between us!")
     p1 = input("Your answer: ").lower().strip()
@@ -17,7 +17,6 @@ def rock_paper_scissors():
     cpu = random.randint(0,2)
     def cpu_input():
         print("My answer:", g[cpu])
-
 
 # game algorithm
     while not (p1 == g[0] or p1 == g[1] or p1 == g[2]):
@@ -49,6 +48,7 @@ def rock_paper_scissors():
             else:
                 print("Again!")
                 rock_paper_scissors()
+                
     # play again prompt
     def played():
         again = input("Would you like to play again? (Y/N)")
