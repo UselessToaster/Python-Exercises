@@ -24,7 +24,7 @@ def rock_paper_scissors():
         g = ["rock", "paper", "scissors"]
     else:
         cpu_input() 
-        #player choses rock
+        # player choses rock
         if p1 == g[0]:
             if cpu == 1:
                 print("I beat you!")
@@ -33,7 +33,7 @@ def rock_paper_scissors():
             else:
                 print("Again!")
                 rock_paper_scissors()
-        #player choses paper
+        # player choses paper
         elif p1 == g[1]:
             if cpu == 0:
                 print("You beat me?!?")
@@ -42,7 +42,7 @@ def rock_paper_scissors():
             else:
                 print("Again!")
                 rock_paper_scissors() 
-        #player choses scissors
+        # player choses scissors
         elif p1 == g[2]:
             if cpu == 0:
                 print("I beat you!") 
