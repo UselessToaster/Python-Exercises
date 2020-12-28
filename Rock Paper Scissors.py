@@ -49,7 +49,7 @@ def rock_paper_scissors():
             else:
                 print("Again!")
                 rock_paper_scissors()
-    # play again promt
+    # play again prompt
     def played():
         again = input("Would you like to play again? (Y/N)")
         while not (again == "Y" or again == "N"):
