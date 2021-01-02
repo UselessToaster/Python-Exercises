@@ -56,7 +56,7 @@ def guessing_game():
             else: # <<< error for testing purposes
                 print("???")
 
-    #play again function (called line 40)
+    #play again function (called line 41)
     def play_again():
         options = ["Y", "N"]
         p2 = input().upper().strip()
