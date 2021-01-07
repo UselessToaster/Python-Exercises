@@ -13,7 +13,7 @@ def total_factors(x):
     print("These are the factors of {}:".format(user), factors)
 
     # counts number of factors
-    for elem in factors:
+    for _ in factors:
         x += 1
     return x
 total = total_factors(0)
